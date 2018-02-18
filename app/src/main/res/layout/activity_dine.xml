@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.valerov.food.dineActivity">
+
+    <TextView
+        android:id="@+id/textView_dc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:text="@string/textView_dc" />
+
+    <EditText
+        android:id="@+id/editText_dc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_dc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/editText_dc" />
+
+    <TextView
+        android:id="@+id/textView_meja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText_dc"
+        android:layout_alignStart="@+id/editText_dc"
+        android:layout_below="@+id/editText_dc"
+        android:text="@string/textView_meja" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText_dc"
+        android:layout_alignRight="@+id/editText_dc"
+        android:layout_below="@+id/editText_dc"
+        android:entries="@array/labels_tables" />
+
+    <Button
+        android:id="@+id/button_pmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_pmenu"
+        android:onClick="pilihmenu"/>
+
+
+</RelativeLayout>

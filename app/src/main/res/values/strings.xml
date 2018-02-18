@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Food</string>
+    <string name="textView_pm">Pilih Menu</string>
+    <string name="rb_dine">Dine In</string>
+    <string name="rb_take">Take Away</string>
+    <string name="b_order">Order Now</string>
+    <string name="button_pmenu">Pilih Menu</string>
+    <string name="textView_meja">No. Meja :</string>
+    <string name="editText_dc">Name</string>
+    <string name="textView_dc">Detail Customer</string>
+    <string name="textView_idp">Identitas Pemesan</string>
+    <string name="editText_nidp">Name</string>
+    <string name="editText_phone">Phone</string>
+    <string name="editText_add">Name</string>
+    <string name="editText_addr">Alamat</string>
+    <string name="editText_note">Catatan</string>
+    <string name="button_tpmenu">Pilih Menu</string>
+    <string-array name="labels_tables">
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+        <item>Meja 3</item>
+        <item>Meja 4</item>
+    </string-array>
+</resources>

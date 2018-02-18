@@ -1,0 +1,4 @@
+#Sun Feb 18 23:08:53 WIB 2018
+base.0=/home/valerov/Documents/AndroidProject/MUSTHOFA_1106130149_Modul2/app/build/intermediates/transforms/dexMerger/debug/6
+path.0=classes.dex
+renamed.0=classes.dex
